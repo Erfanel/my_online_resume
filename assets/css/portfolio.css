@@ -1,0 +1,18 @@
+#anfa{
+    background-image: url("/assets/img/anfa_capture.png");
+    background-position: center;
+}
+
+.bouton_lien{
+    border: solid 1px;
+    border-radius: 1rem;
+    padding: 1rem;
+    max-width: 25%;
+    margin: 2rem;
+
+    &:hover{
+        background-color: var(--primary-color);
+        color: var(--secondary-color);
+        text-decoration: none;
+    }
+}

@@ -1,0 +1,33 @@
+h1{
+    font-size: 2rem;
+}
+
+.skills_grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    text-align: center;
+    gap: 2rem;
+    padding: 2rem;
+    color: black;
+
+    & img{
+        max-width: 5rem;
+    }
+}
+
+.competence__item{
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 2rem;
+    border-radius: 1rem;
+    
+}
+
+@media(max-width: 768px){
+    .skills_grid{
+        grid-template-columns: repeat(2, 1fr);
+        & img{
+            max-width: 5rem !important; 
+        }
+    }
+}

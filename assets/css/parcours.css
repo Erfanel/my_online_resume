@@ -1,0 +1,23 @@
+#opteam{
+    background-image: url("/assets/img/opteam.png");
+    background-size:cover;
+    background-position: center;
+}
+
+#prof{
+    background-image: url("/assets/img/classroom.jpg");
+    background-size:cover;
+    background-position: center;
+}
+
+#prof-fle{
+    background-image: url("/assets/img/flags.jpg");
+    background-size:cover;
+    background-position: center;
+}
+
+#assistant{
+    background-image: url("/assets/img/ottawa_winter.jpg");
+    background-size:cover;
+    background-position: center;
+}

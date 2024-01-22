@@ -1,0 +1,18 @@
+#scholarfab{
+    background-image: url("/assets/img/webdesign.jpg");
+    background-size:cover;
+    background-position: center;
+}
+
+#master{
+    background-image: url("/assets/img/tampere_winter.jpg");
+    background-size:cover;
+    background-position: center;
+}
+
+#licence{
+    background-image: url("/assets/img/leeds_beckett.jpg");
+    background-size:cover;
+    background-position: center;
+}
+
