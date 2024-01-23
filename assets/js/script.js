@@ -1,12 +1,6 @@
 let hamburger = document.querySelector("#hamburger");
 let nav = document.querySelector("nav");
 
-document.addEventListener("DOMContentLoaded", () => {
-  nav.style.visibility = "hidden";
-});
-
-
-
 hamburger.addEventListener("click", () => {
   if (nav.style.visibility === "hidden") {
     nav.style.visibility = "visible";
